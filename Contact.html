@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <style>
+        nav {
+            background-color: #2a77428b;
+            padding: 1em;
+        }
+        .container {
+      max-width: 600px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #f9f9f9;
+      border: 1px solid #ccc;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+    .header h1 {
+      margin: 0;
+    }
+    .contact-info {
+      margin-bottom: 20px;
+    }
+    .contact-info ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .contact-info li {
+      margin-bottom: 10px;
+    }
+    .contact-info a {
+      text-decoration: none;
+      color: #337ab7;
+    }
+    .contact-info a:hover {
+      color: #23527c;
+    }
+    .form {
+      margin-top: 20px;
+    }
+    .form label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    .form input, .form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+    }
+    .form input[type="submit"] {
+      background-color: #337ab7;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .form input[type="submit"]:hover {
+      background-color: #23527c;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contact Me</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../Index.html" target="_blank">Home</a></li>
+            <li><a href="../About.html" target="_blank">About</a></li>
+            <li><a href="../Skill.html" target="_blank">Skill</a></li>
+            <li><a href="./Contact.html" target="_blank">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="header">
+          <h1>Contact Me</h1>
+        </div>
+        <div class="contact-info">
+          <ul>
+            <li><a href="mailto:your-email@example.com"> maaz4668@gmail.com</a></li>
+            <li>03402844811</li>
+            <li><a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank">LinkedIn</a></li>
+          </ul>
+        </div>
+        <div class="form">
+          <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea><br><br>
+            <input type="submit" value="Send Message">
+          </form>
+        </div>
+      </div>
+</body>
+</html>
